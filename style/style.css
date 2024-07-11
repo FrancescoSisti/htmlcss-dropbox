@@ -89,6 +89,7 @@ h1 {
     border: 2px dashed black;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .welcome-title {
@@ -99,4 +100,12 @@ h1 {
 
 .welcome-left {
     width: 30%;
+}
+
+#jumbo {
+    height: 100px;
+}
+
+.welcome-right {
+    width: 70%;
 }
