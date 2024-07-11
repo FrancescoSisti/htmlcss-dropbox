@@ -84,12 +84,16 @@ h1 {
 }
 
 .welcome {
-    background-color: rgb(180, 208, 231);
     min-height: 700px;
     border: 2px dashed black;
-    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    width: 70%;
+}
+
+.bg-blue {
+    background-color: rgb(180, 208, 231);
+    justify-content: center;
 }
 
 .welcome-title {
@@ -103,7 +107,7 @@ h1 {
 }
 
 #jumbo {
-    height: 100px;
+    height: 450px;
 }
 
 .welcome-right {
