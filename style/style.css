@@ -27,11 +27,6 @@ img {
     max-width: 100%;
 }
 
-header {
-    background-color: rgb(180, 208, 231);
-    min-height: 500px;
-    border: 2px dashed black;
-}
 
 ul {
     list-style-type: none;
@@ -63,7 +58,8 @@ a {
 }
 
 .nav {
-    position: fixed;
+    position: sticky;
+    width: 100%;
 }
 
 #logo-small {
@@ -79,4 +75,28 @@ a {
 #btn-start:hover {
     margin-right: 15px;
     cursor: pointer;
+}
+
+/* Welcome Section */
+
+h1 {
+    font-size: 50px;
+}
+
+.welcome {
+    background-color: rgb(180, 208, 231);
+    min-height: 700px;
+    border: 2px dashed black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.welcome-title {
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.welcome-left {
+    width: 30%;
 }
