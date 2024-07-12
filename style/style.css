@@ -42,7 +42,6 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    /* height: 700px; */
 }
 
 /* Navbar */
@@ -64,7 +63,7 @@ a {
 
 #logo-small {
     height: 30px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #logo-small:hover {
@@ -81,11 +80,15 @@ a {
 
 h1 {
     font-size: 50px;
+    padding-top: 45px;
 }
 
 .bg-blue {
     background-color: rgb(180, 208, 231);
+}
 
+.welcome {
+    margin-top: 50px;
 }
 
 .welcome-title {
@@ -99,8 +102,20 @@ h1 {
 
 #jumbo {
     height: 450px;
+    position: relative;
+    left: 400px;
 }
 
 .welcome-right {
     width: 70%;
+    position: absolute;
+}
+
+#btn-trial {
+    margin: 20px 0;
+}
+
+#down-arrow {
+    font-size: 70px;
+    margin: 40px 0;
 }
