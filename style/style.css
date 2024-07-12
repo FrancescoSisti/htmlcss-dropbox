@@ -18,9 +18,32 @@ button {
     font-size: 16px;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 /* Utils */
 .flex {
     display: flex;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 45px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 img {
@@ -42,6 +65,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    border: 2px dashed;
 }
 
 /* Navbar */
@@ -57,7 +81,6 @@ a {
 }
 
 .nav {
-    position: sticky;
     width: 100%;
 }
 
@@ -78,10 +101,6 @@ a {
 
 /* Welcome Section */
 
-h1 {
-    font-size: 50px;
-    padding-top: 45px;
-}
 
 .bg-blue {
     background-color: rgb(180, 208, 231);
@@ -118,4 +137,11 @@ h1 {
 #down-arrow {
     font-size: 70px;
     margin: 40px 0;
+}
+
+/* Pricing section */
+.pricing {
+    max-width: 1000px;
+    margin: 150px auto;
+    border: 2px dashed;
 }
