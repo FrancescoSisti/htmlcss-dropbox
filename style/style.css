@@ -65,6 +65,11 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    margin: 15px 0;
+    ;
+}
+
 img {
     max-width: 100%;
 }
@@ -119,8 +124,6 @@ a {
 }
 
 /* Welcome Section */
-
-
 .bg-blue {
     background-color: rgb(180, 208, 231);
 }
@@ -174,9 +177,40 @@ a {
     border: rgb(0, 97, 255) 5px solid;
     background-color: white;
     cursor: pointer;
-    line-height: 1.5em;
+    margin-right: 5px;
+}
+
+.btn-unmarked {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    border: grey 2px solid;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 5px;
 }
 
 #plan-choice {
     line-height: 1.5em;
+    margin-right: 25px;
+}
+
+.billing-plans {
+    display: flex;
+    margin: 40px 0;
+}
+
+.plan-type {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px lightgray solid;
+    padding: 7px 0;
+    gap: 10px;
+    align-items: center;
+}
+
+.plan-description {
+    padding: 20px;
 }
