@@ -83,21 +83,12 @@ h1 {
     font-size: 50px;
 }
 
-.welcome {
-    min-height: 700px;
-    border: 2px dashed black;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    width: 70%;
-}
-
 .bg-blue {
     background-color: rgb(180, 208, 231);
-    justify-content: center;
+
 }
 
 .welcome-title {
-    margin-top: 60px;
     font-weight: 900;
     font-size: 70px;
 }
