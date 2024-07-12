@@ -24,6 +24,25 @@ button {
     flex-wrap: wrap;
 }
 
+.row>.col-30 {
+    flex-basis: 30%;
+}
+
+.row>.col-70 {
+    flex-basis: 70%;
+}
+
+.row.col-30 {
+    gap: 40px;
+}
+
+.row.col-30>.col {
+    flex-basis: calc(100% / 3 - 80px / 3);
+    min-height: 150px;
+    border: 2px dashed;
+    flex-grow: 1;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -144,4 +163,20 @@ a {
     max-width: 1000px;
     margin: 150px auto;
     border: 2px dashed;
+}
+
+.btn-marked {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    border: rgb(0, 97, 255) 5px solid;
+    background-color: white;
+    cursor: pointer;
+    line-height: 1.5em;
+}
+
+#plan-choice {
+    line-height: 1.5em;
 }
