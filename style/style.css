@@ -48,7 +48,7 @@ button {
 .row.col-30>.col {
     flex-basis: calc(100% / 3 - 80px / 3);
     min-height: 150px;
-    border: 2px dashed;
+
     flex-grow: 1;
 }
 
@@ -87,6 +87,8 @@ ul {
 
 h3 {
     margin: 15px 0;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 h4 {
@@ -117,7 +119,7 @@ li {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px dashed;
+    /* border: 2px dashed; */
 }
 
 /* Navbar */
@@ -193,7 +195,11 @@ li {
 .pricing {
     max-width: 1000px;
     margin: 150px auto;
-    border: 2px dashed;
+    /* border: 2px dashed; */
+}
+
+.pricing .col {
+    border: 1px solid lightgrey;
 }
 
 .btn-marked {
@@ -251,4 +257,9 @@ li {
 .underline-text {
     padding-bottom: 25px;
     border-bottom: 2px lightgray solid;
+}
+
+.long-row {
+    justify-content: space-between;
+    align-items: baseline;
 }
