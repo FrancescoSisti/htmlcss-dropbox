@@ -1,3 +1,8 @@
+/* Root */
+:root {
+    --main-color: rgb(0, 97, 255)
+}
+
 /* Reset */
 * {
     margin: 0;
@@ -5,14 +10,14 @@
     box-sizing: border-box;
 }
 
-/* Generals */
+/* Generics */
 body {
     font-family: "Open Sans", sans-serif;
 }
 
 button {
     color: white;
-    background-color: rgb(0, 97, 255);
+    background-color: var(--main-color);
     border: 0;
     padding: 10px 15px;
     font-size: 16px;
@@ -26,6 +31,10 @@ button {
 
 .row>.col-30 {
     flex-basis: 30%;
+}
+
+.fa-sharp {
+    color: var(--main-color);
 }
 
 .row>.col-70 {
@@ -80,6 +89,11 @@ h3 {
     margin: 15px 0;
 }
 
+h4 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
 img {
     max-width: 100%;
 }
@@ -94,7 +108,7 @@ li {
     margin-bottom: 10px;
 }
 
-a {
+.link-blank {
     text-decoration: none;
     color: black;
     padding: 0 15px;
@@ -188,7 +202,7 @@ a {
     height: 1.5em;
     border-radius: 50%;
     text-align: center;
-    border: rgb(0, 97, 255) 5px solid;
+    border: var(--main-color) 5px solid;
     background-color: white;
     cursor: pointer;
     margin-right: 5px;
@@ -235,6 +249,6 @@ a {
 }
 
 .underline-text {
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     border-bottom: 2px lightgray solid;
 }
