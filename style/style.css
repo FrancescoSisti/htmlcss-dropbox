@@ -48,7 +48,6 @@ button {
 .row.col-30>.col {
     flex-basis: calc(100% / 3 - 80px / 3);
     min-height: 150px;
-
     flex-grow: 1;
 }
 
@@ -68,7 +67,6 @@ header {
 .small-container {
     max-width: 1000px;
     margin: 150px auto;
-    border: 2px dashed;
 }
 
 h1 {
@@ -94,6 +92,10 @@ ul {
 
 p {
     padding-top: 20px;
+}
+
+.small-container .col {
+    border: 1px solid lightgrey;
 }
 
 h3 {
@@ -130,7 +132,6 @@ li {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 2px dashed; */
 }
 
 /* Navbar */
@@ -138,7 +139,6 @@ li {
 .nav-left,
 .nar-right {
     height: 100px;
-    /* border: 2px dashed black; */
     background-color: white;
     align-items: center;
     justify-content: space-between;
@@ -204,9 +204,6 @@ li {
 
 /* Pricing section */
 
-.small-container .col {
-    border: 1px solid lightgrey;
-}
 
 .btn-marked {
     display: inline-block;
@@ -292,7 +289,12 @@ li {
 .partners-right {
     height: 600px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.features-cards {
+    max-width: 1000px;
+    margin: 150px auto;
 }
